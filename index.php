@@ -1,58 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reframetal</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-  </head>
+  <?php
+     include "./php/head.php"
+  ?>
   <body>
-    <header class="encabezado">
-      <div class="contenido-navegacion">
-        <div class="logo">
-          <h2>Refra <span>metal</span></h2>
-        </div>
-        <nav class="navegacion ocultar">
-          <a href="#">Inicio</a>
-          <a href="#">Nosotros</a>
-          <a href="/html/servicios.html">Servicios</a>
-          <a href="#">Contacto</a>
-        </nav>
-        <div class="hamburguesa"><span></span><span></span><span></span></div>
-      </div>
-
-      <div class="contenido-encabezado contenedor">
-        <div class="texto-encabezado">
-          <h1>Materiales Tecnicos Refractarios</h1>
-        </div>
-        <form action="php/recibe.php" class="formulario-encabezado" method="post">
-          <h2>Agenda una cita con Nosotros</h2>
-          <div class="input-encabezado">
-            <input type="text" name="cc" placeholder="cc" />
-          </div>
-          <div class="input-encabezado">
-            <input type="text" name="nombre" placeholder="nombre" />
-            <input type="text" name="apellido" placeholder="apellido" />
-            <input type="text" name="telefono" placeholder="telefono" />
-          </div>
-          <div class="input-encabezado">
-            <input type="mail" name="correo" placeholder="ingresar correo" />
-          </div>
-          <div class="boton-encabezado">
-            <input class="btn azul" type="submit" name="enviar" value="cotiza" />
-          </div>
-        </form>
-      </div>
-    </header>
+   <?php
+      include "./php/header.php"
+   ?> 
 
     <div class="ventajas">
       <div class="contenido-ventajas contenedor">
@@ -101,9 +55,9 @@
         </div>
       </div>
     </section>
-    <section class="servicios contenedor">
+    <section class="servicios contenedor" id="servicios">
     <h2>Servicios</h2>
-    <div class="contenido-servicios">
+    <div class="contenido-servicios" >
       <div class="servicio">
         <i class="fa-solid fa-headphones"></i>
         <h3>Ladrillos R-33</h3>
@@ -155,7 +109,7 @@
       </div>
     </div>
   </section>
-  <section class="contacto">
+  <section class="contacto" id="contacto">
     <h2>Contactanos</h2>
     <div class="contenido-contacto">
       <div class="informacion-contacto">
