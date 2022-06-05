@@ -5,7 +5,7 @@
         </div>
         <nav class="navegacion ocultar">
           <a href="#">Inicio</a>
-          <a href="./galeria.php">Galería</a>
+          <a href="./php/galeria.php">Galería</a>
           <a href="#servicios">Servicios</a>
           <a href="#contacto">Contacto</a>
         </nav>

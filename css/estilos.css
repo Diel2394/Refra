@@ -122,7 +122,7 @@ btn{
     top: 70px;
     width:100%;
     animation: desplazamiento.5s ease-in-out;
-    -webkit-animation: desplazamiento.5s ease-in-out;
+    -webkit-animation:;
 }
   @media(min-width:768px){
       .ocultar{

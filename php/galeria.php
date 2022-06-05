@@ -9,5 +9,9 @@ include "./head.php"
 include "./header.php"
 
 ?>
+
+<section>
+    <h2>Nuestros Productos</h2>
+</section>
 </body>
 </html>

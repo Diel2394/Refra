@@ -6,7 +6,13 @@
   <body>
    <?php
       include "./php/header.php"
+      
    ?> 
+
+   <?php
+   
+   include "./php/contenedor.php"
+   ?>
 
     <div class="ventajas">
       <div class="contenido-ventajas contenedor">
@@ -164,5 +170,6 @@
     crossorigin="anonymous"
   ></script>
   <script src="https://kit.fontawesome.com/54037278ad.js" crossorigin="anonymous"></script>
+  <script src="js/form.js"></script>
   </body>
 </html>

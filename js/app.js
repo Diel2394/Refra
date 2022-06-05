@@ -32,4 +32,5 @@ function fechaActual(){
     fecha.textContent=fechaHoy;
 }
 
+console.log('funcionando')
 
