@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-  <?php
+<head>
+	<title>Reframetal</title>
+	<?php
      include "./php/head.php"
   ?>
+	<link rel="stylesheet" href="./css/estilos.css" />
+	<link rel="stylesheet" href="./css/normalize.css" />
+</head>
   <body>
    <?php
       include "./php/header.php"
@@ -115,48 +120,9 @@
       </div>
     </div>
   </section>
-  <section class="contacto" id="contacto">
-    <h2>Contactanos</h2>
-    <div class="contenido-contacto">
-      <div class="informacion-contacto">
-        <h3>Informacion de Contacto</h3>
-        <p>Reframetalweb.com</p>
-        <p>604-317-22-20</p>
-
-      </div>
-      <form class="formulario-contacto">
-        <div class="input-contacto">
-        <label for="nombre">Nombre</label>
-       <input type="text" id="nombre" placeholder="Ingresa Tu Nombre">
-        </div>
-
-        <form class="formulario-contacto">
-          <div class="input-contacto">
-            <label for="nombre">Correo</label>
-         <input type="text" id="correo" placeholder="Ingresa Tu Correo">
-          </div>
-
-          <form class="formulario-contacto">
-            <div class="input-contacto">
-            <label for="telefono">Telefono</label>
-           <input type="text" id="telefono" placeholder="Ingresa Tu Telefono">
-            </div>
-
-            <form class="formulario-contacto">
-              <div class="input-contacto">
-              <label for="mensaje">Mensaje</label>
-             <textarea></textarea>
-              </div>
-
-              
-                <div class="input-contacto">
-                <label for="nombre">Nombre</label>
-               <input type="submit" value="enviar" class="btn azul">
-                </div>
-        
-      </form>
-    </div>
-  </section>
+   <?php
+      include './php/contactForm.php'
+   ?>
   <footer class="footer">
 <div class="logo">
   <h2>Refra <span>Metal</span></h2>
